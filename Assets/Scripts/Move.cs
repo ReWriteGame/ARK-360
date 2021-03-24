@@ -77,7 +77,10 @@ public class Move : MonoBehaviour
     {
         rb.AddForce(direction.normalized * impulseForce, ForceMode2D.Impulse);
     }
+    public void vector2Move(Vector2 direction)
+    {
+        rb.velocity = direction.normalized * speed;
+    }
 
 
-   
 }

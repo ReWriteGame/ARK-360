@@ -35,6 +35,10 @@ public class BallMoveController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) move.impulseMove(directionMove);
         keyboardController();
+
+
+        if (move.Rigidbody2D.velocity.magnitude != move.Speed)
+            move.vector2Move(move.Rigidbody2D.velocity.normalized * move.Speed);
     }
 
 

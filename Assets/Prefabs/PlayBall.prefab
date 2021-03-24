@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee558b65ad7164e4fb93db4357b149b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   impulseForce: 1.1
 --- !u!114 &6092604028481532786
 MonoBehaviour:
@@ -148,5 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa369dc07a10d44c9811590ddb3ad2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  border: {fileID: 0}
   rightAngle: 20
   leftAngle: -20
+  lifeBar: {fileID: 0}
